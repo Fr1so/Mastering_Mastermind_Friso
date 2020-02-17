@@ -22,9 +22,9 @@ def Guess():
 
     return [0, 1, 1, 2]
 
-mappingDict = {"0" : "pos. + kleur = goed",
-               "1" : "kleur. = goed",
-               "2" : "fout"}
+mappingDict = {"0" : "pos. + colour = correct",
+               "1" : "colour. = correct",
+               "2" : "incorrect"}
 
 Wincondition =
 
@@ -37,7 +37,7 @@ while correctVar == false:
         if player == "human":
             input = waitforinput
         """else:
-            input = >> algorithm here"""
+            input = >> Algorithm"""
 
 computerColours()
 Guess()
